@@ -1,0 +1,2480 @@
+{
+  "mod_elements": [
+    {
+      "name": "OrbOfDarkness",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_of_darkness"
+    },
+    {
+      "name": "Itemorbofdarkness",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemorbofdarkness"
+    },
+    {
+      "name": "InfectedsoilUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectedsoil_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infectedsoil",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectedsoil"
+    },
+    {
+      "name": "Voidstone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidstone"
+    },
+    {
+      "name": "Darkdirt",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkdirt"
+    },
+    {
+      "name": "Darkness",
+      "type": "potioneffect",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness"
+    },
+    {
+      "name": "DarknessEffectExpires",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infected",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidCobble",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble"
+    },
+    {
+      "name": "Gravityvoid",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravityvoid"
+    },
+    {
+      "name": "DarkcoruptEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkcorupt_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkcoruptEffectExpires",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkcorupt_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkcorupt",
+      "type": "potioneffect",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkcorupt"
+    },
+    {
+      "name": "Crpt",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crpt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infectp",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuartzEnrichedNetheriteArmor",
+      "type": "armor",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_enriched_netherite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CoverMeInQuartz",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_quartz"
+    },
+    {
+      "name": "CoverMeInQuartzLogic",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_quartz_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheAbsoluteDark",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_absolute_dark"
+    },
+    {
+      "name": "Darkinfected",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkinfected"
+    },
+    {
+      "name": "QencRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qenc_recipe"
+    },
+    {
+      "name": "DarkBiome",
+      "type": "biome",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_biome"
+    },
+    {
+      "name": "QuartzEnrichedNetheriteRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_enriched_netherite_recipe"
+    },
+    {
+      "name": "QuartzEnrichedNetherite",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_enriched_netherite"
+    },
+    {
+      "name": "QENHRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qenh_recipe"
+    },
+    {
+      "name": "QenlRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qenl_recipe"
+    },
+    {
+      "name": "QenbRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qenb_recipe"
+    },
+    {
+      "name": "Darkarmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "VoidCureEffectExpires",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cure_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidCure",
+      "type": "potioneffect",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cure"
+    },
+    {
+      "name": "GivevoidcureEffectExpires",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givevoidcure_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Givevoidcure",
+      "type": "potioneffect",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givevoidcure"
+    },
+    {
+      "name": "Voidcurepotion",
+      "type": "potion",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidcurepotion"
+    },
+    {
+      "name": "Pureafyingapp",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pureafyingapp"
+    },
+    {
+      "name": "Pa",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa"
+    },
+    {
+      "name": "Cure",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cure"
+    },
+    {
+      "name": "DarkStarRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_star_recipe"
+    },
+    {
+      "name": "WhenUDApplied",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_ud_applied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoppedOrbOfDarkness",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_orb_of_darkness"
+    },
+    {
+      "name": "UltimateDarkness",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_darkness"
+    },
+    {
+      "name": "EnhancedDarkStarRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_dark_star_recipe"
+    },
+    {
+      "name": "UDExpire",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ud_expire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkStar",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_star"
+    },
+    {
+      "name": "PoppedOrbOfDarknessRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_orb_of_darkness_recipe"
+    },
+    {
+      "name": "PotionOfUltimateDarkness",
+      "type": "potion",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_ultimate_darkness"
+    },
+    {
+      "name": "DarkCarrotEat",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedDarkStar",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_dark_star"
+    },
+    {
+      "name": "DarklingLevel",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level"
+    },
+    {
+      "name": "DarkCarrotRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_recipe"
+    },
+    {
+      "name": "UDRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ud_recipe"
+    },
+    {
+      "name": "DarklingLevelSay",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_say",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkarmorle",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmorle"
+    },
+    {
+      "name": "Darkarmorbo",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmorbo"
+    },
+    {
+      "name": "Darkarmorhe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmorhe"
+    },
+    {
+      "name": "DarkarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkarmorch",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkarmorch"
+    },
+    {
+      "name": "Voidking",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidking",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Voidvile",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidvile"
+    },
+    {
+      "name": "Curev",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curev"
+    },
+    {
+      "name": "Strangev",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strangev"
+    },
+    {
+      "name": "Voidarmor",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidarmor"
+    },
+    {
+      "name": "VoidkingBodyTickEvent",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidking_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emptyvile",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptyvile"
+    },
+    {
+      "name": "Ev",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ev"
+    },
+    {
+      "name": "Cv",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cv"
+    },
+    {
+      "name": "Vv",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vv"
+    },
+    {
+      "name": "VoidkingbossItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidkingboss_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidkingboss",
+      "type": "livingentity",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidkingboss"
+    },
+    {
+      "name": "DarklingLevel1",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_1"
+    },
+    {
+      "name": "DarklingLevel1DoIt",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_1_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidkingsword",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidkingsword"
+    },
+    {
+      "name": "Voidkingswordres",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidkingswordres"
+    },
+    {
+      "name": "Rizeofthevoid",
+      "type": "painting",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rizeofthevoid"
+    },
+    {
+      "name": "Voidstonebricks",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidstonebricks"
+    },
+    {
+      "name": "Vsbr",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vsbr"
+    },
+    {
+      "name": "Vsb",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vsb"
+    },
+    {
+      "name": "DarkCarrot",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot"
+    },
+    {
+      "name": "Chisseldvoidstonebricks",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chisseldvoidstonebricks"
+    },
+    {
+      "name": "Mishonf",
+      "type": "painting",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mission_f"
+    },
+    {
+      "name": "Vk",
+      "type": "painting",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vk"
+    },
+    {
+      "name": "Voidtemple",
+      "type": "structure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidtemple"
+    },
+    {
+      "name": "BluePole",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pole"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod"
+    },
+    {
+      "name": "IronPole",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pole"
+    },
+    {
+      "name": "IronRodRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_recipe"
+    },
+    {
+      "name": "IronPoleRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pole_recipe"
+    },
+    {
+      "name": "BluePoleRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pole_recipe"
+    },
+    {
+      "name": "DarkCaves",
+      "type": "biome",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_caves"
+    },
+    {
+      "name": "VoidStoneCoalOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_coal_ore"
+    },
+    {
+      "name": "VoidStoneIronOre",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_iron_ore"
+    },
+    {
+      "name": "VoidStoneRedstoneOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_redstone_ore"
+    },
+    {
+      "name": "VoidStoneLapisOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_lapis_ore"
+    },
+    {
+      "name": "VoidStoneEmeraldOre",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_emerald_ore"
+    },
+    {
+      "name": "VoidStoneDiamondOre",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_diamond_ore"
+    },
+    {
+      "name": "VoidStoneCopperOre",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_copper_ore"
+    },
+    {
+      "name": "VoidStoneGoldOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_gold_ore"
+    },
+    {
+      "name": "VoidStoneCoalFortune",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_coal_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneIronFortune",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_iron_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneEmeraldFortune",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_emerald_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneDiamondFortune",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_diamond_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneGoldFortune",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_gold_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneRedstoneFortune",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_redstone_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneLapisFortune",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_lapis_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneCopperFortune",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_copper_fortune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoInfectionSpread",
+      "type": "gamerule",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doInfectionSpread",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "TheDarkInfectionFunction",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dark_infection_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidKingStrikeLightning",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_king_strike_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkIngot",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_ingot"
+    },
+    {
+      "name": "SilverTimer",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarklingLevel3DoIt",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_3_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheDarkInfection",
+      "type": "achievement",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dark_infection"
+    },
+    {
+      "name": "VoidKingSpawner",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_king_spawner"
+    },
+    {
+      "name": "TheDarkArmor",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dark_armor"
+    },
+    {
+      "name": "QuartzPickaxe",
+      "type": "tool",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_pickaxe"
+    },
+    {
+      "name": "CobbleToStoneVoid",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_to_stone_void"
+    },
+    {
+      "name": "BricksToChiseledCrafting",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricks_to_chiseled_crafting"
+    },
+    {
+      "name": "TheVoidKingDoIt",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void_king_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoLightUp",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_light_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheVoidKing",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void_king"
+    },
+    {
+      "name": "VoidStoneAxeRight",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_axe_right"
+    },
+    {
+      "name": "VoidStoneBrickWalls",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_brick_walls"
+    },
+    {
+      "name": "DarklingLevel2DoIt",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_2_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HowToGetToVoidDimension",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_to_get_to_void_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidBrickSlabRecipeCut",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_slab_recipe_cut"
+    },
+    {
+      "name": "QuartzSwordRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_sword_recipe"
+    },
+    {
+      "name": "VoidStonePickaxe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_pickaxe"
+    },
+    {
+      "name": "QuartzAxe",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_axe"
+    },
+    {
+      "name": "VoidBrickStairsRecipeCraft",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_stairs_recipe_craft"
+    },
+    {
+      "name": "VoidStoneFurnace",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_furnace"
+    },
+    {
+      "name": "VoidCobbleFurnace",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_furnace"
+    },
+    {
+      "name": "LightsOff",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lights_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuartzPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_pickaxe_recipe"
+    },
+    {
+      "name": "SummonVoidKing",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_void_king",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoToVoid",
+      "type": "command",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_to_void"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword_recipe"
+    },
+    {
+      "name": "TheVoidAdvancement",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void_advancement"
+    },
+    {
+      "name": "DarkShovelRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shovel_recipe"
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe"
+    },
+    {
+      "name": "VoidstoneBrickWallWork",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidstone_brick_wall_work",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe"
+    },
+    {
+      "name": "PurifyingAppleDo",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifying_apple_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheVoid",
+      "type": "dimension",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "VoidBrickWallsRecipeCraft",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_walls_recipe_craft"
+    },
+    {
+      "name": "GoToVoidFunction",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_to_void_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidCobbleAxe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_axe"
+    },
+    {
+      "name": "VoidBrickWallRecipeCut",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_wall_recipe_cut"
+    },
+    {
+      "name": "DarkOrb",
+      "type": "rangeditem",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_orb"
+    },
+    {
+      "name": "QuartzShovelRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_shovel_recipe"
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe_recipe"
+    },
+    {
+      "name": "VoidCobbleHoeLeft",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_hoe_left"
+    },
+    {
+      "name": "VoidStoneShovel",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_shovel"
+    },
+    {
+      "name": "VoidKingLevitate",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_king_levitate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenerateVoidKing",
+      "type": "command",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_void_king"
+    },
+    {
+      "name": "VoidStoneRedstoneOreLit",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_redstone_ore_lit"
+    },
+    {
+      "name": "QuartzAxeRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_axe_recipe"
+    },
+    {
+      "name": "VoidKingStructure",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_king_structure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkShovel",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shovel"
+    },
+    {
+      "name": "VoidCobbleHoeRight",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_hoe_right"
+    },
+    {
+      "name": "VoidCobbleShovel",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_shovel"
+    },
+    {
+      "name": "VoidCobbleSword",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_sword"
+    },
+    {
+      "name": "SilverSpawn",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword"
+    },
+    {
+      "name": "VoidStoneAxeLeft",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_axe_left"
+    },
+    {
+      "name": "VoidStoneHoeLeft",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_hoe_left"
+    },
+    {
+      "name": "VoidStoneSword",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_sword"
+    },
+    {
+      "name": "DarkIngotRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_ingot_recipe"
+    },
+    {
+      "name": "QuartzShovel",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_shovel"
+    },
+    {
+      "name": "VoidStoneBrickSlabs",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_brick_slabs"
+    },
+    {
+      "name": "TheDarkArmorDoIt",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dark_armor_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidStoneBrickStairs",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_brick_stairs"
+    },
+    {
+      "name": "BricksToChiseledCutting",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricks_to_chiseled_cutting"
+    },
+    {
+      "name": "DarkHoe",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_hoe"
+    },
+    {
+      "name": "QuartzSword",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_sword"
+    },
+    {
+      "name": "ClericOOD",
+      "type": "villagertrade",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleric_ood"
+    },
+    {
+      "name": "DarklingLevel2",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_2"
+    },
+    {
+      "name": "VoidBrickSlabRecipeCraft",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_slab_recipe_craft"
+    },
+    {
+      "name": "VoidCobblePickaxe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_pickaxe"
+    },
+    {
+      "name": "DarklingLevel3",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling_level_3"
+    },
+    {
+      "name": "QuartzHoe",
+      "type": "tool",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_hoe"
+    },
+    {
+      "name": "VoidStoneHoeRight",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone_hoe_right"
+    },
+    {
+      "name": "TheVoidAdvancementDoIt",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void_advancement_do_it",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidCobbleAxeRight",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cobble_axe_right"
+    },
+    {
+      "name": "StoneToChiseled",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_to_chiseled"
+    },
+    {
+      "name": "ChiseledToBricks",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_to_bricks"
+    },
+    {
+      "name": "IntoTheVoidCommand",
+      "type": "command",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "into_the_void_command"
+    },
+    {
+      "name": "VoidBrickStairsRecipeCut",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_brick_stairs_recipe_cut"
+    },
+    {
+      "name": "SpawnIntoTheVoid",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_into_the_void",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe_recipe"
+    },
+    {
+      "name": "DarkHoeRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_hoe_recipe"
+    },
+    {
+      "name": "QuartzHoeRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_hoe_recipe"
+    },
+    {
+      "name": "Battletothedeth",
+      "type": "painting",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battletothedeth"
+    },
+    {
+      "name": "InitInfectable",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "init_infectable",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "InitInfectedStuff",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "init_infected_stuff",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DoInfection",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_infection",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrbOfDarknessYES",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_of_darkness_yes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "infectable_blocks",
+      "type": "arraylist_block",
+      "scope": "global",
+      "value": "new ArrayList\u003cBlock\u003e()"
+    },
+    {
+      "name": "infected_blocks",
+      "type": "arraylist_block",
+      "scope": "global",
+      "value": "new ArrayList\u003cBlock\u003e()"
+    },
+    {
+      "name": "BoatGodFlyON",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "Silver_Timer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "VoidKingSpawned",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "StructureGenerated",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "InfectedBlocks",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "InfectableBlocks",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "effect.dark_infection.ultimate_darkness": "Ultimate Darkness...",
+      "item.dark_infection.quartz_enriched_netherite_armor_chestplate": "Quartz Enriched Netherite Chestplate",
+      "block.dark_infection.darkdirt": "DarkDirt",
+      "block.dark_infection.gravityvoid": "GravityVoid",
+      "block.dark_infection.void_stone_coal_ore": "Void Stone Coal Ore",
+      "advancements.darkling_level_2.descr": "Delve Further into the Darkness",
+      "advancements.cover_me_in_quartz.title": "Cover Me In Quartz",
+      "item.dark_infection.quartz_pickaxe": "Q.E.N. Pickaxe",
+      "item.dark_infection.the_void": "The Void Portal Igniter",
+      "item.dark_infection.quartz_axe": "Q.E.N. Axe",
+      "advancements.the_dark_armor.title": "Cover Me in Darkness",
+      "item.dark_infection.dark_carrot": "Dark Carrot",
+      "item.minecraft.potion.effect.voidcurepotion": "Potion of Voidcure",
+      "advancements.the_void_king.title": "The Void King",
+      "block.dark_infection.void_stone_copper_ore": "Void Stone Copper Ore",
+      "advancements.the_dark_infection.title": "The Dark Infection",
+      "item.dark_infection.darkarmor_leggings": "Dark Leggings",
+      "item.dark_infection.curev": "Cure Vial",
+      "item.dark_infection.dark_sword": "Dark Sword",
+      "item.dark_infection.dark_pickaxe": "Dark Pickaxe",
+      "advancements.the_absolute_dark.title": "The Absolute Dark...",
+      "item.dark_infection.iron_rod": "Iron Rod",
+      "block.dark_infection.void_stone_brick_slabs": "Void Stone Brick Slab",
+      "block.dark_infection.void_stone_emerald_ore": "Void Stone Emerald Ore",
+      "item.minecraft.splash_potion.effect.potion_of_ultimate_darkness": "Splash PotionOf Ultimate Darkness",
+      "block.dark_infection.void_stone_brick_stairs": "Void Stone Brick Stairs",
+      "item.minecraft.potion.effect.potion_of_ultimate_darkness": "Potion Of Ultimate Darkness",
+      "advancements.the_absolute_dark.descr": "What devotion is this?",
+      "item.dark_infection.enhanced_dark_star": "Enhanced Dark Star",
+      "block.dark_infection.void_stone_lapis_ore": "Void Stone Lapis Ore",
+      "advancements.darkling_level_3.descr": "Envelop yourself in the darkness...",
+      "item.dark_infection.voidking_helmet": "Voidking Helmet",
+      "gamerule.doInfectionSpread": "Do Infection Spread",
+      "item.dark_infection.dark_hoe": "Dark Hoe",
+      "effect.dark_infection.darkness": "Darkness",
+      "item.dark_infection.quartz_enriched_netherite_armor_boots": "Quartz Enriched Netherite Boots",
+      "effect.dark_infection.void_cure": "void cure",
+      "gamerule.doInfectionSpread.description": "Toggles Infection Spreading",
+      "item.dark_infection.blue_pole": "Blue Pole",
+      "item.dark_infection.dark_axe": "Dark Axe",
+      "item.dark_infection.voidvile": "Void Vial",
+      "item.dark_infection.quartz_enriched_netherite_armor_helmet": "Quartz Enriched Netherite Helmet",
+      "item.dark_infection.quartz_enriched_netherite": "Quartz Enriched Netherite Ingot",
+      "item.dark_infection.darkarmor_chestplate": "Dark Chestplate",
+      "advancements.darkling_level_1.title": "Darkling Level 1",
+      "advancements.the_void_advancement.descr": "Enter the Darkness.",
+      "item.dark_infection.dark_ingot": "Dark Ingot",
+      "item.minecraft.splash_potion.effect.voidcurepotion": "Splash Potion of Voidcure (dont use its broken)",
+      "item.dark_infection.voidking_boots": "Voidking Boots",
+      "item.dark_infection.emptyvile": "Empty Vial",
+      "entity.dark_infection.voidkingboss": "Void King Boss",
+      "block.dark_infection.void_stone_diamond_ore": "Void Stone Diamond Ore",
+      "item.dark_infection.pureafyingapp": "Purifying Apple",
+      "item.dark_infection.darkarmor_boots": "Dark Boots",
+      "block.dark_infection.voidstone": "VoidStone",
+      "item.dark_infection.popped_orb_of_darkness": "Popped Orb Of Darkness",
+      "item.dark_infection.quartz_sword": "Q.E.N. Sword",
+      "biome.dark_infection.dark_biome": "Dark Biome",
+      "item.minecraft.lingering_potion.effect.voidcurepotion": "Lingering Potion of Voidcure",
+      "block.dark_infection.void_stone_gold_ore": "Void Stone Gold Ore",
+      "item.minecraft.tipped_arrow.effect.potion_of_ultimate_darkness": "Arrow of Ultimate Darkness",
+      "block.dark_infection.void_stone_redstone_ore_lit": "Void Stone Redstone Ore Lit",
+      "item.dark_infection.itemorbofdarkness": "Orb Of Darkness",
+      "advancements.darkling_level_2.title": "Darkling Level 2",
+      "item.dark_infection.voidking_leggings": "Voidking Leggings",
+      "itemGroup.tabdarkinfected": "Dark Infection",
+      "advancements.the_dark_armor.descr": "Surround yourself in the void... and it will bless you.",
+      "block.dark_infection.void_stone_brick_walls": "Void Stone Brick Walls",
+      "item.minecraft.lingering_potion.effect.potion_of_ultimate_darkness": "Lingering Potion Of Ultimate Darkness",
+      "biome.dark_infection.dark_caves": "Dark Caves",
+      "advancements.the_void_advancement.title": "The Void",
+      "advancements.darkling_level_1.descr": "Become a Darkling",
+      "block.dark_infection.voidstonebricks": "VoidStone Bricks",
+      "effect.dark_infection.givevoidcure": "one sec",
+      "item.dark_infection.voidkingsword": "Voidkingsword",
+      "item.minecraft.tipped_arrow.effect.voidcurepotion": "Arrow of Voidcure (dont use its broken)",
+      "block.dark_infection.infectedsoil": "Infected Soil",
+      "advancements.cover_me_in_quartz.descr": "Woah! How immune is this...?",
+      "item.dark_infection.dark_orb": "Dark Orb",
+      "block.dark_infection.void_stone_iron_ore": "Void Stone Iron Ore",
+      "item.dark_infection.quartz_hoe": "Q.E.N. Hoe",
+      "item.dark_infection.dark_star": "Dark Star",
+      "item.dark_infection.voidkingboss_spawn_egg": "Void King Boss Spawn Egg",
+      "advancements.darkling_level_3.title": "Darkling Level 3",
+      "advancements.the_void_king.descr": "Become the King of the Darkness",
+      "block.dark_infection.chisseldvoidstonebricks": "Chiseled VoidStone Bricks",
+      "advancements.the_dark_infection.descr": "The darkness within us all grows...",
+      "effect.dark_infection.darkcorupt": "Don\u0027t Die...",
+      "block.dark_infection.void_stone_redstone_ore": "Void Stone Redstone Ore",
+      "block.dark_infection.void_king_spawner": "Void King Spawner",
+      "item.dark_infection.dark_shovel": "Dark Shovel",
+      "item.dark_infection.iron_pole": "Iron Pole",
+      "item.dark_infection.strangev": "Strange Vial",
+      "item.dark_infection.quartz_shovel": "Q.E.N. Shovel",
+      "item.dark_infection.quartz_enriched_netherite_armor_leggings": "Quartz Enriched Netherite Leggings",
+      "item.dark_infection.voidking_chestplate": "Voidking Body",
+      "block.dark_infection.void_cobble": "Void Cobble",
+      "item.dark_infection.darkarmor_helmet": "Dark Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dark_infection",
+    "modName": "Dark Infection",
+    "version": "0.9.4",
+    "description": "Infect Everything!",
+    "author": "quinn, MCreator, FiveNights2161",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "dark_star",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.darkinfection",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Do Infection Spread",
+    "description": "Toggles Infection Spreading",
+    "category": "UPDATES",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

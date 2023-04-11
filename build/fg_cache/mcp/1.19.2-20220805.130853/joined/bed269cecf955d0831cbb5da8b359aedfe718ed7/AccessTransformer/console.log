@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\FiveNights2161\Desktop\dark_infection_lives\build\fg_cache\mcp\1.19.2-20220805.130853\joined\bed269cecf955d0831cbb5da8b359aedfe718ed7\rename\output.jar", "--outJar", "C:\Users\FiveNights2161\Desktop\dark_infection_lives\build\fg_cache\mcp\1.19.2-20220805.130853\joined\bed269cecf955d0831cbb5da8b359aedfe718ed7\AccessTransformer\output.jar", "--atFile", "C:\Users\FiveNights2161\Desktop\dark_infection_lives\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\FIVENI~1\AppData\Local\Temp\FG_ats_16063578015385419088.cfg"
+Classpath:   C:\Users\FiveNights2161\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\Users\FiveNights2161\Desktop\dark_infection_lives\build\fg_cache\mcp\1.19.2-20220805.130853\joined\bed269cecf955d0831cbb5da8b359aedfe718ed7\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

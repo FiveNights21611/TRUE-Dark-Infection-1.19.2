@@ -1,0 +1,48 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ball_of_darkness",
+    "customModelName": "Normal",
+    "name": "Orb Of Darkness",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Darkinfected"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": -2,
+    "toolType": 1.0,
+    "damageCount": 25,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "As dark as the Void",
+      "infects everything it touches..."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "onRightClickedOnBlock": {
+      "name": "OrbOfDarknessYES"
+    },
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

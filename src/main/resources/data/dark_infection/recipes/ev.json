@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "G",
+    "H"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "dark_infection:emptyvile",
+    "count": 1
+  }
+}

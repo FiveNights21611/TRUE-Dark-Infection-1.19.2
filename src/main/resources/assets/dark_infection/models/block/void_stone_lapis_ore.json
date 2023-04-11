@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark_infection:blocks/voidstonelapisore",
+    "up": "dark_infection:blocks/voidstonelapisore",
+    "north": "dark_infection:blocks/voidstonelapisore",
+    "east": "dark_infection:blocks/voidstonelapisore",
+    "south": "dark_infection:blocks/voidstonelapisore",
+    "west": "dark_infection:blocks/voidstonelapisore",
+    "particle": "dark_infection:blocks/voidstonelapisore"
+  },
+  "render_type": "solid"
+}

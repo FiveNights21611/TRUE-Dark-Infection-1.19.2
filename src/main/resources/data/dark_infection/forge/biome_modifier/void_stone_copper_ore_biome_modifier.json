@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dark_infection:dark_caves",
+    "dark_infection:dark_biome"
+  ],
+  "features": "dark_infection:void_stone_copper_ore",
+  "step": "underground_ores"
+}

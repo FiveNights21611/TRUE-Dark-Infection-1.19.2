@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark_infection:blocks/chiseledvoidstonebricks",
+    "up": "dark_infection:blocks/chiseledvoidstonebricks",
+    "north": "dark_infection:blocks/chiseledvoidstonebricks",
+    "east": "dark_infection:blocks/chiseledvoidstonebricks",
+    "south": "dark_infection:blocks/chiseledvoidstonebricks",
+    "west": "dark_infection:blocks/chiseledvoidstonebricks",
+    "particle": "dark_infection:blocks/chiseledvoidstonebricks"
+  },
+  "render_type": "solid"
+}

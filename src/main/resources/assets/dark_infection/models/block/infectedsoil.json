@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark_infection:blocks/darkdirtnew",
+    "up": "dark_infection:blocks/infectedsoiltopnew",
+    "north": "dark_infection:blocks/infectedsoilsidenew",
+    "east": "dark_infection:blocks/infectedsoilsidenew",
+    "south": "dark_infection:blocks/infectedsoilsidenew",
+    "west": "dark_infection:blocks/infectedsoilsidenew",
+    "particle": "dark_infection:blocks/darkdirtnew"
+  },
+  "render_type": "solid"
+}

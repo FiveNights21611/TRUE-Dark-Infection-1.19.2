@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Voidcure",
+    "splashName": "Splash Potion of Voidcure (dont use its broken)",
+    "lingeringName": "Lingering Potion of Voidcure",
+    "arrowName": "Arrow of Voidcure (dont use its broken)",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Givevoidcure"
+        },
+        "duration": 10,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

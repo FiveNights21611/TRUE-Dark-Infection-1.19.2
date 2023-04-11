@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "dark_infection:dark_ingot"
+  },
+  "result": {
+    "item": "dark_infection:darkarmor_boots"
+  }
+}

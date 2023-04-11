@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dark_infection:dark_biome",
+  "features": "dark_infection:voidtemple",
+  "step": "surface_structures"
+}

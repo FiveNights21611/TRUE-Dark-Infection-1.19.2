@@ -1,0 +1,127 @@
+{
+  "_fv": 39,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Void King Boss",
+    "mobLabel": "Void King",
+    "mobModelName": "Biped",
+    "mobModelTexture": "36453b20f2f76704eb7314afd1cc70b28a33a658.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Darkinfected"
+    },
+    "isBoss": true,
+    "bossBarColor": "YELLOW",
+    "bossBarType": "NOTCHED_20",
+    "equipmentMainHand": {
+      "value": "CUSTOM:Voidkingsword"
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": "CUSTOM:Voidking.helmet"
+    },
+    "equipmentBody": {
+      "value": "CUSTOM:Voidking.body"
+    },
+    "equipmentLeggings": {
+      "value": "CUSTOM:Voidking.legs"
+    },
+    "equipmentBoots": {
+      "value": "CUSTOM:Voidking.boots"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEAD",
+    "attackStrength": 7,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.5,
+    "movementSpeed": 0.7000000000000001,
+    "armorBaseValue": 4.0,
+    "trackingRange": 100,
+    "followRange": 16,
+    "health": 150,
+    "xpAmount": 10000,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:Strangev"
+    },
+    "livingSound": {
+      "value": "ambient.cave"
+    },
+    "hurtSound": {
+      "value": "entity.lightning.impact"
+    },
+    "deathSound": {
+      "value": "item.trident.hit_ground"
+    },
+    "stepSound": {
+      "value": "entity.lightning.thunder"
+    },
+    "onStruckByLightning": {
+      "name": "VoidkingbossItIsStruckByLightning"
+    },
+    "onMobTickUpdate": {
+      "name": "VoidKingLevitate"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"watch_closest_entity\"><field name=\"radius\">50</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">50</field><field name=\"speed\">0.15</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">0.15</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.TRIDENT"
+    },
+    "rangedItemType": "DarkOrb",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DarkBiome"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}
