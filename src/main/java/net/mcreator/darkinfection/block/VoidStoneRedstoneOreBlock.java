@@ -18,7 +18,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.darkinfection.procedures.VoidStoneRedstoneFortuneProcedure;
 import net.mcreator.darkinfection.procedures.DoLightUpProcedure;
-import net.mcreator.darkinfection.procedures.DoInfectionProcedure;
+import net.mcreator.darkinfection.procedures.BlockInfectionSystembyFiveNightsProcedure;
 
 public class VoidStoneRedstoneOreBlock extends Block {
 	public VoidStoneRedstoneOreBlock() {
@@ -49,7 +49,7 @@ public class VoidStoneRedstoneOreBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		DoInfectionProcedure.execute(world, x, y, z);
+		BlockInfectionSystembyFiveNightsProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 10);
 	}
 

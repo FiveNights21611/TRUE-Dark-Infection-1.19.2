@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OTU",
+    "ARA",
+    " A "
+  ],
+  "key": {
+    "O": {
+      "item": "dark_infection:voidvile"
+    },
+    "T": {
+      "item": "dark_infection:strangev"
+    },
+    "U": {
+      "item": "dark_infection:curev"
+    },
+    "A": {
+      "item": "dark_infection:quartz_enriched_netherite"
+    },
+    "R": {
+      "item": "dark_infection:darkarmor_chestplate"
+    }
+  },
+  "result": {
+    "item": "dark_infection:voidking_chestplate",
+    "count": 1
+  }
+}

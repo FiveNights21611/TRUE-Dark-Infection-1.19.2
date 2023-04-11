@@ -11,7 +11,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.darkinfection.procedures.OrbOfDarknessYESProcedure;
+import net.mcreator.darkinfection.procedures.DarkOrbStuffFiveNightsProcedure;
 import net.mcreator.darkinfection.init.DarkInfectionModTabs;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class ItemorbofdarknessItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.EAT;
+		return UseAnim.BOW;
 	}
 
 	@Override
@@ -61,7 +61,7 @@ public class ItemorbofdarknessItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		OrbOfDarknessYESProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
+		DarkOrbStuffFiveNightsProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

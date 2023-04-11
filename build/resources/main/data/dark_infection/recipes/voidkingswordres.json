@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    "UL ",
+    "IO "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "U": {
+      "item": "dark_infection:curev"
+    },
+    "L": {
+      "item": "dark_infection:blue_pole"
+    },
+    "O": {
+      "item": "dark_infection:voidvile"
+    }
+  },
+  "result": {
+    "item": "dark_infection:voidkingsword",
+    "count": 1
+  }
+}

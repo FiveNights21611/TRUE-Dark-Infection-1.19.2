@@ -51,5 +51,6 @@ public class VoidstoneBrickWallWorkProcedure {
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 		}
+		BlockInfectionSystembyFiveNightsProcedure.execute(world, x, y, z);
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark_infection:blocks/darkstone",
+    "up": "dark_infection:blocks/darkstone",
+    "north": "dark_infection:blocks/darkstone",
+    "east": "dark_infection:blocks/darkstone",
+    "south": "dark_infection:blocks/darkstone",
+    "west": "dark_infection:blocks/darkstone",
+    "particle": "dark_infection:blocks/darkstone"
+  },
+  "render_type": "solid"
+}

@@ -33,7 +33,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 1,
     "onRightClickedOnBlock": {
-      "name": "OrbOfDarknessYES"
+      "name": "DarkOrbStuffFiveNights"
     },
     "isFood": false,
     "nutritionalValue": 0,
@@ -43,6 +43,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "bow"
   }
 }

@@ -1,0 +1,178 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2023-04-11 15:09:59
+Description: Unexpected error
+
+java.lang.IndexOutOfBoundsException: Index -24 out of bounds for length 52
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?] {}
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?] {}
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?] {}
+	at java.util.Objects.checkIndex(Objects.java:359) ~[?:?] {}
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?] {}
+	at net.mcreator.darkinfection.procedures.DarkOrbStuffFiveNightsProcedure.execute(DarkOrbStuffFiveNightsProcedure.java:20) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.darkinfection.item.EnhancedDarkStarItem.useOn(EnhancedDarkStarItem.java:47) ~[%23188!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.lambda$useOn$5(ItemStack.java:237) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.world.item.ItemStack.onItemUse(ItemStack.java:252) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.world.item.ItemStack.useOn(ItemStack.java:237) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.performUseItemOn(MultiPlayerGameMode.java:352) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.lambda$useItemOn$4(MultiPlayerGameMode.java:312) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.startPrediction(MultiPlayerGameMode.java:252) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.useItemOn(MultiPlayerGameMode.java:311) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.startUseItem(Minecraft.java:1671) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.handleKeybinds(Minecraft.java:1951) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.tick(Minecraft.java:1768) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1078) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?] {}
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?] {}
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?] {}
+	at java.util.Objects.checkIndex(Objects.java:359) ~[?:?] {}
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?] {}
+	at net.mcreator.darkinfection.procedures.DarkOrbStuffFiveNightsProcedure.execute(DarkOrbStuffFiveNightsProcedure.java:20) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.darkinfection.item.EnhancedDarkStarItem.useOn(EnhancedDarkStarItem.java:47) ~[%23188!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.lambda$useOn$5(ItemStack.java:237) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.world.item.ItemStack.onItemUse(ItemStack.java:252) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.world.item.ItemStack.useOn(ItemStack.java:237) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.performUseItemOn(MultiPlayerGameMode.java:352) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.lambda$useItemOn$4(MultiPlayerGameMode.java:312) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.startPrediction(MultiPlayerGameMode.java:252) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.MultiPlayerGameMode.useItemOn(MultiPlayerGameMode.java:311) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.startUseItem(Minecraft.java:1671) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.handleKeybinds(Minecraft.java:1951) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['Dev'/182, l='ClientLevel', x=-25.93, y=69.49, z=106.11]]
+	Chunk stats: 961, 601
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-16,75,64), Section: (at 0,11,0 in -1,4,4; chunk contains blocks -16,-64,64 to -1,319,79), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 5120 game time, 5120 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.fillReportDetails(ClientLevel.java:450) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.fillReport(Minecraft.java:2278) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:722) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Mod Resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1433111040 bytes (1366 MiB) / 2009071616 bytes (1916 MiB) up to 4278190080 bytes (4080 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 1600 Six-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 1 Stepping 1
+	Microarchitecture: Zen
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f82
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3141
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 26555.12
+	Virtual memory used (MB): 22349.54
+	Swap memory total (MB): 10240.00
+	Swap memory used (MB): 862.42
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 3.2.0 NVIDIA 531.41, NVIDIA Corporation
+	Window size: 1920x1001
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 1600 Six-Core Processor 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/182, l='ServerLevel[TestingVariables]', x=-25.93, y=69.49, z=106.11]]
+	Data Packs: vanilla, mod:forge, mod:dark_infection, mod:curios
+	World Generation: Experimental
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.2.0_mapped_official_1.19.2.jar    |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |43.2.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |Dark Infection                |dark_infection                |0.9.4               |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.19.2-5.1.1.0_mapped_official_1.19.2|Curios API                    |curios                        |1.19.2-5.1.1.0      |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 4f41a2ba-2548-4f30-a2d8-b06701e0e599
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

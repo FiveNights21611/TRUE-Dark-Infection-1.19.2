@@ -1,0 +1,21 @@
+{
+  "group": "ofd_to_poud",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DAD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "A": {
+      "item": "dark_infection:dark_star"
+    }
+  },
+  "result": {
+    "item": "dark_infection:enhanced_dark_star",
+    "count": 1
+  }
+}

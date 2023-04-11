@@ -16,6 +16,8 @@ import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.common.capabilities.Capability;
 
 import net.minecraft.world.level.saveddata.SavedData;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -26,6 +28,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.Tag;
+import net.minecraft.nbt.NbtUtils;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.Direction;
 import net.minecraft.client.Minecraft;
@@ -33,9 +36,14 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.darkinfection.DarkInfectionMod;
 
 import java.util.function.Supplier;
+import java.util.List;
+import java.util.ArrayList;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DarkInfectionModVariables {
+	public static List<Object> InfectableBlocksTRUE = new ArrayList<>();
+	public static List<Object> InfectedBlocksTRUE = new ArrayList<>();
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		DarkInfectionMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);
@@ -104,6 +112,7 @@ public class DarkInfectionModVariables {
 		public boolean BoatGodFlyON = false;
 		public boolean VoidKingSpawned = false;
 		public boolean StructureGenerated = false;
+		public BlockState isDormant = Blocks.AIR.defaultBlockState();
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -115,6 +124,7 @@ public class DarkInfectionModVariables {
 			BoatGodFlyON = nbt.getBoolean("BoatGodFlyON");
 			VoidKingSpawned = nbt.getBoolean("VoidKingSpawned");
 			StructureGenerated = nbt.getBoolean("StructureGenerated");
+			isDormant = NbtUtils.readBlockState(nbt.getCompound("isDormant"));
 		}
 
 		@Override
@@ -122,6 +132,7 @@ public class DarkInfectionModVariables {
 			nbt.putBoolean("BoatGodFlyON", BoatGodFlyON);
 			nbt.putBoolean("VoidKingSpawned", VoidKingSpawned);
 			nbt.putBoolean("StructureGenerated", StructureGenerated);
+			nbt.put("isDormant", NbtUtils.writeBlockState(isDormant));
 			return nbt;
 		}
 

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dark_infection:blocks/voidstonebricks",
+    "top": "dark_infection:blocks/voidstonebricks",
+    "side": "dark_infection:blocks/voidstonebricks"
+  },
+  "render_type": "solid"
+}

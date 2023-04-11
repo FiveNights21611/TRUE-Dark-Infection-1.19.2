@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCB",
+    "CHC",
+    "ACN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "A": {
+      "item": "dark_infection:darkdirt"
+    }
+  },
+  "result": {
+    "item": "dark_infection:itemorbofdarkness",
+    "count": 1
+  }
+}

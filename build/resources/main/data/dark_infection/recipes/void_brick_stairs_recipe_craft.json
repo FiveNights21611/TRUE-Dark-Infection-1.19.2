@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dark_infection:voidstonebricks"
+    }
+  },
+  "result": {
+    "item": "dark_infection:void_stone_brick_stairs",
+    "count": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dark_infection:iron_rod"
+    }
+  },
+  "result": {
+    "item": "dark_infection:iron_pole",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dark_infection:voidstone",
+    "dark_infection:infectedsoil",
+    "dark_infection:darkdirt"
+  ]
+}

@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="dark_infection"
+version="0.9.4"
+displayName="Dark Infection"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="quinn, MCreator, FiveNights2161"
+description='''
+Infect Everything!
+'''
+
+[[dependencies.dark_infection]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.dark_infection]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

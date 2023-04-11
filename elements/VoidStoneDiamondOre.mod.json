@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "DoInfection"
+      "name": "BlockInfectionSystembyFiveNights"
     },
     "onDestroyedByPlayer": {
       "name": "VoidStoneDiamondFortune"

@@ -15,7 +15,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.darkinfection.procedures.DoInfectionProcedure;
+import net.mcreator.darkinfection.procedures.BlockInfectionSystembyFiveNightsProcedure;
 import net.mcreator.darkinfection.init.DarkInfectionModBlocks;
 
 import java.util.List;
@@ -52,6 +52,6 @@ public class VoidstoneBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		DoInfectionProcedure.execute(world, x, y, z);
+		BlockInfectionSystembyFiveNightsProcedure.execute(world, x, y, z);
 	}
 }

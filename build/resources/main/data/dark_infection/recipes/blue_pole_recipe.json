@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NRN",
+    "DOD",
+    "NLN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "R": {
+      "item": "dark_infection:iron_rod"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "dark_infection:iron_pole"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "dark_infection:blue_pole",
+    "count": 1
+  }
+}

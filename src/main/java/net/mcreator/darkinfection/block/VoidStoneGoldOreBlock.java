@@ -16,7 +16,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.darkinfection.procedures.VoidStoneGoldFortuneProcedure;
-import net.mcreator.darkinfection.procedures.DoInfectionProcedure;
+import net.mcreator.darkinfection.procedures.BlockInfectionSystembyFiveNightsProcedure;
 
 public class VoidStoneGoldOreBlock extends Block {
 	public VoidStoneGoldOreBlock() {
@@ -47,7 +47,7 @@ public class VoidStoneGoldOreBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		DoInfectionProcedure.execute(world, x, y, z);
+		BlockInfectionSystembyFiveNightsProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 10);
 	}
 

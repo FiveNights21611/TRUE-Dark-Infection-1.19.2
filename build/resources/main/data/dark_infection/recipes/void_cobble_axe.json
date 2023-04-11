@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OS",
+    " S"
+  ],
+  "key": {
+    "O": {
+      "item": "dark_infection:void_cobble"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

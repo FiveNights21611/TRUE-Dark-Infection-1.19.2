@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark_infection:blocks/voidcobblenew",
+    "up": "dark_infection:blocks/voidcobblenew",
+    "north": "dark_infection:blocks/voidcobblenew",
+    "east": "dark_infection:blocks/voidcobblenew",
+    "south": "dark_infection:blocks/voidcobblenew",
+    "west": "dark_infection:blocks/voidcobblenew",
+    "particle": "dark_infection:blocks/voidcobblenew"
+  },
+  "render_type": "solid"
+}
