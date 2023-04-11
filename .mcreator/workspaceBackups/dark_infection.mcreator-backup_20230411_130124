@@ -6,7 +6,12 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orb_of_darkness"
+      "registry_name": "orb_of_darkness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/orb_of_darkness.json"
+        ]
+      }
     },
     {
       "name": "Itemorbofdarkness",
@@ -14,7 +19,13 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "itemorbofdarkness"
+      "registry_name": "itemorbofdarkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/ItemorbofdarknessItem.java",
+          "src/main/resources/assets/dark_infection/models/item/itemorbofdarkness.json"
+        ]
+      }
     },
     {
       "name": "InfectedsoilUpdateTick",
@@ -24,6 +35,9 @@
       "locked_code": false,
       "registry_name": "infectedsoil_update_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/InfectedsoilUpdateTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -50,7 +64,15 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infectedsoil"
+      "registry_name": "infectedsoil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/block/InfectedsoilBlock.java",
+          "src/main/resources/assets/dark_infection/blockstates/infectedsoil.json",
+          "src/main/resources/assets/dark_infection/models/block/infectedsoil.json",
+          "src/main/resources/assets/dark_infection/models/item/infectedsoil.json"
+        ]
+      }
     },
     {
       "name": "Voidstone",
@@ -58,7 +80,15 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidstone"
+      "registry_name": "voidstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/voidstone.json",
+          "src/main/resources/assets/dark_infection/blockstates/voidstone.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidstoneBlock.java",
+          "src/main/resources/assets/dark_infection/models/block/voidstone.json"
+        ]
+      }
     },
     {
       "name": "Darkdirt",
@@ -66,7 +96,15 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkdirt"
+      "registry_name": "darkdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/block/darkdirt.json",
+          "src/main/java/net/mcreator/darkinfection/block/DarkdirtBlock.java",
+          "src/main/resources/assets/dark_infection/models/item/darkdirt.json",
+          "src/main/resources/assets/dark_infection/blockstates/darkdirt.json"
+        ]
+      }
     },
     {
       "name": "Darkness",
@@ -74,7 +112,12 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkness"
+      "registry_name": "darkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/potion/DarknessMobEffect.java"
+        ]
+      }
     },
     {
       "name": "DarknessEffectExpires",
@@ -84,6 +127,9 @@
       "locked_code": false,
       "registry_name": "darkness_effect_expires",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarknessEffectExpiresProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -100,6 +146,9 @@
       "locked_code": false,
       "registry_name": "infected",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/InfectedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -118,7 +167,15 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble"
+      "registry_name": "void_cobble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/block/void_cobble.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidCobbleBlock.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_cobble.json",
+          "src/main/resources/assets/dark_infection/models/item/void_cobble.json"
+        ]
+      }
     },
     {
       "name": "Gravityvoid",
@@ -126,7 +183,15 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gravityvoid"
+      "registry_name": "gravityvoid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/gravityvoid.json",
+          "src/main/resources/assets/dark_infection/blockstates/gravityvoid.json",
+          "src/main/resources/assets/dark_infection/models/block/gravityvoid.json",
+          "src/main/java/net/mcreator/darkinfection/block/GravityvoidBlock.java"
+        ]
+      }
     },
     {
       "name": "DarkcoruptEffectStartedapplied",
@@ -136,6 +201,9 @@
       "locked_code": false,
       "registry_name": "darkcorupt_effect_startedapplied",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarkcoruptEffectStartedappliedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -152,6 +220,9 @@
       "locked_code": false,
       "registry_name": "darkcorupt_effect_expires",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarkcoruptEffectExpiresProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -170,7 +241,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkcorupt"
+      "registry_name": "darkcorupt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/potion/DarkcoruptMobEffect.java"
+        ]
+      }
     },
     {
       "name": "Crpt",
@@ -180,6 +256,9 @@
       "locked_code": false,
       "registry_name": "crpt",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/CrptProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -196,6 +275,9 @@
       "locked_code": false,
       "registry_name": "infectp",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/InfectpProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -219,7 +301,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/QuartzEnrichedNetheriteArmorItem.java",
+          "src/main/resources/assets/dark_infection/models/item/quartz_enriched_netherite_armor_helmet.json",
+          "src/main/resources/assets/dark_infection/models/item/quartz_enriched_netherite_armor_boots.json",
+          "src/main/resources/assets/dark_infection/models/item/quartz_enriched_netherite_armor_chestplate.json",
+          "src/main/resources/assets/dark_infection/models/item/quartz_enriched_netherite_armor_leggings.json"
+        ]
       }
     },
     {
@@ -228,7 +317,12 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cover_me_in_quartz"
+      "registry_name": "cover_me_in_quartz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/cover_me_in_quartz.json"
+        ]
+      }
     },
     {
       "name": "CoverMeInQuartzLogic",
@@ -238,6 +332,9 @@
       "locked_code": false,
       "registry_name": "cover_me_in_quartz_logic",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/CoverMeInQuartzLogicProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -252,7 +349,12 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_absolute_dark"
+      "registry_name": "the_absolute_dark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/the_absolute_dark.json"
+        ]
+      }
     },
     {
       "name": "Darkinfected",
@@ -260,7 +362,10 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkinfected"
+      "registry_name": "darkinfected",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "QencRecipe",
@@ -268,7 +373,12 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "qenc_recipe"
+      "registry_name": "qenc_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/qenc_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkBiome",
@@ -276,7 +386,12 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_biome"
+      "registry_name": "dark_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/world/biome/DarkBiomeBiome.java"
+        ]
+      }
     },
     {
       "name": "QuartzEnrichedNetheriteRecipe",
@@ -284,7 +399,12 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_enriched_netherite_recipe"
+      "registry_name": "quartz_enriched_netherite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_enriched_netherite_recipe.json"
+        ]
+      }
     },
     {
       "name": "QuartzEnrichedNetherite",
@@ -292,7 +412,13 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_enriched_netherite"
+      "registry_name": "quartz_enriched_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/quartz_enriched_netherite.json",
+          "src/main/java/net/mcreator/darkinfection/item/QuartzEnrichedNetheriteItem.java"
+        ]
+      }
     },
     {
       "name": "QENHRecipe",
@@ -300,7 +426,12 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "qenh_recipe"
+      "registry_name": "qenh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/qenh_recipe.json"
+        ]
+      }
     },
     {
       "name": "QenlRecipe",
@@ -308,7 +439,12 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "qenl_recipe"
+      "registry_name": "qenl_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/qenl_recipe.json"
+        ]
+      }
     },
     {
       "name": "QenbRecipe",
@@ -316,7 +452,12 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "qenb_recipe"
+      "registry_name": "qenb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/qenb_recipe.json"
+        ]
+      }
     },
     {
       "name": "Darkarmor",
@@ -329,7 +470,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/darkarmor_chestplate.json",
+          "src/main/resources/assets/dark_infection/models/item/darkarmor_leggings.json",
+          "src/main/resources/assets/dark_infection/models/item/darkarmor_boots.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkarmorItem.java",
+          "src/main/resources/assets/dark_infection/models/item/darkarmor_helmet.json"
+        ]
       }
     },
     {
@@ -340,6 +488,9 @@
       "locked_code": false,
       "registry_name": "void_cure_effect_expires",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidCureEffectExpiresProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -354,7 +505,12 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cure"
+      "registry_name": "void_cure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/potion/VoidCureMobEffect.java"
+        ]
+      }
     },
     {
       "name": "GivevoidcureEffectExpires",
@@ -364,6 +520,9 @@
       "locked_code": false,
       "registry_name": "givevoidcure_effect_expires",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/GivevoidcureEffectExpiresProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -378,7 +537,12 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "givevoidcure"
+      "registry_name": "givevoidcure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/potion/GivevoidcureMobEffect.java"
+        ]
+      }
     },
     {
       "name": "Voidcurepotion",
@@ -386,7 +550,10 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidcurepotion"
+      "registry_name": "voidcurepotion",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Pureafyingapp",
@@ -394,7 +561,13 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pureafyingapp"
+      "registry_name": "pureafyingapp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/pureafyingapp.json",
+          "src/main/java/net/mcreator/darkinfection/item/PureafyingappItem.java"
+        ]
+      }
     },
     {
       "name": "Pa",
@@ -402,7 +575,12 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pa"
+      "registry_name": "pa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/pa.json"
+        ]
+      }
     },
     {
       "name": "Cure",
@@ -410,7 +588,12 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cure"
+      "registry_name": "cure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/recipes/brewing/CureBrewingRecipe.java"
+        ]
+      }
     },
     {
       "name": "DarkStarRecipe",
@@ -418,7 +601,12 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_star_recipe"
+      "registry_name": "dark_star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_star_recipe.json"
+        ]
+      }
     },
     {
       "name": "WhenUDApplied",
@@ -428,6 +616,9 @@
       "locked_code": false,
       "registry_name": "when_ud_applied",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/WhenUDAppliedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -442,7 +633,13 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "popped_orb_of_darkness"
+      "registry_name": "popped_orb_of_darkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/PoppedOrbOfDarknessItem.java",
+          "src/main/resources/assets/dark_infection/models/item/popped_orb_of_darkness.json"
+        ]
+      }
     },
     {
       "name": "UltimateDarkness",
@@ -450,7 +647,12 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ultimate_darkness"
+      "registry_name": "ultimate_darkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/potion/UltimateDarknessMobEffect.java"
+        ]
+      }
     },
     {
       "name": "EnhancedDarkStarRecipe",
@@ -458,7 +660,12 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enhanced_dark_star_recipe"
+      "registry_name": "enhanced_dark_star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/enhanced_dark_star_recipe.json"
+        ]
+      }
     },
     {
       "name": "UDExpire",
@@ -468,6 +675,9 @@
       "locked_code": false,
       "registry_name": "ud_expire",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/UDExpireProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -482,7 +692,13 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_star"
+      "registry_name": "dark_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_star.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkStarItem.java"
+        ]
+      }
     },
     {
       "name": "PoppedOrbOfDarknessRecipe",
@@ -490,7 +706,12 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "popped_orb_of_darkness_recipe"
+      "registry_name": "popped_orb_of_darkness_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/popped_orb_of_darkness_recipe.json"
+        ]
+      }
     },
     {
       "name": "PotionOfUltimateDarkness",
@@ -498,7 +719,10 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potion_of_ultimate_darkness"
+      "registry_name": "potion_of_ultimate_darkness",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "DarkCarrotEat",
@@ -508,6 +732,9 @@
       "locked_code": false,
       "registry_name": "dark_carrot_eat",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarkCarrotEatProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -522,7 +749,13 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enhanced_dark_star"
+      "registry_name": "enhanced_dark_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/enhanced_dark_star.json",
+          "src/main/java/net/mcreator/darkinfection/item/EnhancedDarkStarItem.java"
+        ]
+      }
     },
     {
       "name": "DarklingLevel",
@@ -530,7 +763,12 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkling_level"
+      "registry_name": "darkling_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/command/DarklingLevelCommand.java"
+        ]
+      }
     },
     {
       "name": "DarkCarrotRecipe",
@@ -538,7 +776,12 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_carrot_recipe"
+      "registry_name": "dark_carrot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_carrot_recipe.json"
+        ]
+      }
     },
     {
       "name": "UDRecipe",
@@ -546,7 +789,12 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ud_recipe"
+      "registry_name": "ud_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/recipes/brewing/UDRecipeBrewingRecipe.java"
+        ]
+      }
     },
     {
       "name": "DarklingLevelSay",
@@ -556,6 +804,9 @@
       "locked_code": false,
       "registry_name": "darkling_level_say",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarklingLevelSayProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -570,7 +821,12 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkarmorle"
+      "registry_name": "darkarmorle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/darkarmorle.json"
+        ]
+      }
     },
     {
       "name": "Darkarmorbo",
@@ -578,7 +834,12 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkarmorbo"
+      "registry_name": "darkarmorbo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/darkarmorbo.json"
+        ]
+      }
     },
     {
       "name": "Darkarmorhe",
@@ -586,7 +847,12 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkarmorhe"
+      "registry_name": "darkarmorhe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/darkarmorhe.json"
+        ]
+      }
     },
     {
       "name": "DarkarmorBodyTickEvent",
@@ -596,6 +862,9 @@
       "locked_code": false,
       "registry_name": "darkarmor_body_tick_event",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarkarmorBodyTickEventProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -610,7 +879,12 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkarmorch"
+      "registry_name": "darkarmorch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/darkarmorch.json"
+        ]
+      }
     },
     {
       "name": "Voidking",
@@ -623,7 +897,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/voidking_leggings.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_chestplate.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_helmet.json",
+          "src/main/java/net/mcreator/darkinfection/item/VoidkingItem.java",
+          "src/main/resources/assets/dark_infection/models/item/voidking_boots.json"
+        ]
       }
     },
     {
@@ -632,7 +913,13 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidvile"
+      "registry_name": "voidvile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/voidvile.json",
+          "src/main/java/net/mcreator/darkinfection/item/VoidvileItem.java"
+        ]
+      }
     },
     {
       "name": "Curev",
@@ -640,7 +927,13 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "curev"
+      "registry_name": "curev",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/curev.json",
+          "src/main/java/net/mcreator/darkinfection/item/CurevItem.java"
+        ]
+      }
     },
     {
       "name": "Strangev",
@@ -648,7 +941,13 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strangev"
+      "registry_name": "strangev",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/strangev.json",
+          "src/main/java/net/mcreator/darkinfection/item/StrangevItem.java"
+        ]
+      }
     },
     {
       "name": "Voidarmor",
@@ -656,7 +955,12 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidarmor"
+      "registry_name": "voidarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/voidarmor.json"
+        ]
+      }
     },
     {
       "name": "VoidkingBodyTickEvent",
@@ -666,6 +970,9 @@
       "locked_code": false,
       "registry_name": "voidking_body_tick_event",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidkingBodyTickEventProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -684,7 +991,13 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emptyvile"
+      "registry_name": "emptyvile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/EmptyvileItem.java",
+          "src/main/resources/assets/dark_infection/models/item/emptyvile.json"
+        ]
+      }
     },
     {
       "name": "Ev",
@@ -692,7 +1005,12 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ev"
+      "registry_name": "ev",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/ev.json"
+        ]
+      }
     },
     {
       "name": "Cv",
@@ -700,7 +1018,12 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cv"
+      "registry_name": "cv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/recipes/brewing/CvBrewingRecipe.java"
+        ]
+      }
     },
     {
       "name": "Vv",
@@ -708,7 +1031,12 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vv"
+      "registry_name": "vv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/recipes/brewing/VvBrewingRecipe.java"
+        ]
+      }
     },
     {
       "name": "VoidkingbossItIsStruckByLightning",
@@ -718,6 +1046,9 @@
       "locked_code": false,
       "registry_name": "voidkingboss_it_is_struck_by_lightning",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidkingbossItIsStruckByLightningProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -732,7 +1063,14 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidkingboss"
+      "registry_name": "voidkingboss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/entity/VoidkingbossEntity.java",
+          "src/main/java/net/mcreator/darkinfection/client/renderer/VoidkingbossRenderer.java",
+          "src/main/resources/assets/dark_infection/models/item/voidkingboss_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "DarklingLevel1",
@@ -740,7 +1078,12 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkling_level_1"
+      "registry_name": "darkling_level_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/darkling_level_1.json"
+        ]
+      }
     },
     {
       "name": "DarklingLevel1DoIt",
@@ -750,6 +1093,9 @@
       "locked_code": false,
       "registry_name": "darkling_level_1_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarklingLevel1DoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -768,7 +1114,13 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidkingsword"
+      "registry_name": "voidkingsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/voidkingsword.json",
+          "src/main/java/net/mcreator/darkinfection/item/VoidkingswordItem.java"
+        ]
+      }
     },
     {
       "name": "Voidkingswordres",
@@ -776,7 +1128,12 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidkingswordres"
+      "registry_name": "voidkingswordres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/voidkingswordres.json"
+        ]
+      }
     },
     {
       "name": "Rizeofthevoid",
@@ -784,7 +1141,10 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rizeofthevoid"
+      "registry_name": "rizeofthevoid",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Voidstonebricks",
@@ -792,7 +1152,15 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidstonebricks"
+      "registry_name": "voidstonebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/blockstates/voidstonebricks.json",
+          "src/main/resources/assets/dark_infection/models/item/voidstonebricks.json",
+          "src/main/resources/assets/dark_infection/models/block/voidstonebricks.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidstonebricksBlock.java"
+        ]
+      }
     },
     {
       "name": "Vsbr",
@@ -800,7 +1168,12 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vsbr"
+      "registry_name": "vsbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/vsbr.json"
+        ]
+      }
     },
     {
       "name": "Vsb",
@@ -808,7 +1181,12 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vsb"
+      "registry_name": "vsb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/vsb.json"
+        ]
+      }
     },
     {
       "name": "DarkCarrot",
@@ -816,7 +1194,13 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_carrot"
+      "registry_name": "dark_carrot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_carrot.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkCarrotItem.java"
+        ]
+      }
     },
     {
       "name": "Chisseldvoidstonebricks",
@@ -824,7 +1208,15 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chisseldvoidstonebricks"
+      "registry_name": "chisseldvoidstonebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/blockstates/chisseldvoidstonebricks.json",
+          "src/main/java/net/mcreator/darkinfection/block/ChisseldvoidstonebricksBlock.java",
+          "src/main/resources/assets/dark_infection/models/item/chisseldvoidstonebricks.json",
+          "src/main/resources/assets/dark_infection/models/block/chisseldvoidstonebricks.json"
+        ]
+      }
     },
     {
       "name": "Mishonf",
@@ -832,7 +1224,10 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mission_f"
+      "registry_name": "mission_f",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Vk",
@@ -840,7 +1235,10 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vk"
+      "registry_name": "vk",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Voidtemple",
@@ -848,7 +1246,13 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voidtemple"
+      "registry_name": "voidtemple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/world/features/VoidtempleFeature.java",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/voidtemple_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "BluePole",
@@ -856,7 +1260,13 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_pole"
+      "registry_name": "blue_pole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/blue_pole.json",
+          "src/main/java/net/mcreator/darkinfection/item/BluePoleItem.java"
+        ]
+      }
     },
     {
       "name": "IronRod",
@@ -864,7 +1274,13 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "iron_rod"
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/IronRodItem.java",
+          "src/main/resources/assets/dark_infection/models/item/iron_rod.json"
+        ]
+      }
     },
     {
       "name": "IronPole",
@@ -872,7 +1288,13 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "iron_pole"
+      "registry_name": "iron_pole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/IronPoleItem.java",
+          "src/main/resources/assets/dark_infection/models/item/iron_pole.json"
+        ]
+      }
     },
     {
       "name": "IronRodRecipe",
@@ -880,7 +1302,12 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "iron_rod_recipe"
+      "registry_name": "iron_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/iron_rod_recipe.json"
+        ]
+      }
     },
     {
       "name": "IronPoleRecipe",
@@ -888,7 +1315,12 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "iron_pole_recipe"
+      "registry_name": "iron_pole_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/iron_pole_recipe.json"
+        ]
+      }
     },
     {
       "name": "BluePoleRecipe",
@@ -896,7 +1328,12 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_pole_recipe"
+      "registry_name": "blue_pole_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/blue_pole_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkCaves",
@@ -904,7 +1341,12 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_caves"
+      "registry_name": "dark_caves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/world/biome/DarkCavesBiome.java"
+        ]
+      }
     },
     {
       "name": "VoidStoneCoalOre",
@@ -912,7 +1354,17 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_coal_ore"
+      "registry_name": "void_stone_coal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/block/void_stone_coal_ore.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneCoalOreBlock.java",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneCoalOreFeature.java",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_coal_ore_biome_modifier.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_coal_ore.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_coal_ore.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneIronOre",
@@ -920,7 +1372,17 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_iron_ore"
+      "registry_name": "void_stone_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneIronOreBlock.java",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneIronOreFeature.java",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_iron_ore.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_iron_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_iron_ore.json",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_iron_ore_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneRedstoneOre",
@@ -928,7 +1390,17 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_redstone_ore"
+      "registry_name": "void_stone_redstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneRedstoneOreFeature.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_redstone_ore.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneRedstoneOreBlock.java",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_redstone_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_redstone_ore.json",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_redstone_ore_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneLapisOre",
@@ -936,7 +1408,17 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_lapis_ore"
+      "registry_name": "void_stone_lapis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/void_stone_lapis_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_lapis_ore.json",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_lapis_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneLapisOreFeature.java",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneLapisOreBlock.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_lapis_ore.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneEmeraldOre",
@@ -944,7 +1426,17 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_emerald_ore"
+      "registry_name": "void_stone_emerald_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneEmeraldOreBlock.java",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_emerald_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_emerald_ore.json",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_emerald_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneEmeraldOreFeature.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_emerald_ore.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneDiamondOre",
@@ -952,7 +1444,17 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_diamond_ore"
+      "registry_name": "void_stone_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneDiamondOreFeature.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_diamond_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_diamond_ore.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneDiamondOreBlock.java",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_diamond_ore.json",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_diamond_ore_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneCopperOre",
@@ -960,7 +1462,17 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_copper_ore"
+      "registry_name": "void_stone_copper_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneCopperOreBlock.java",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_copper_ore_biome_modifier.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_copper_ore.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_copper_ore.json",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneCopperOreFeature.java",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_copper_ore.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneGoldOre",
@@ -968,7 +1480,17 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_gold_ore"
+      "registry_name": "void_stone_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneGoldOreBlock.java",
+          "src/main/java/net/mcreator/darkinfection/world/features/ores/VoidStoneGoldOreFeature.java",
+          "src/main/resources/data/dark_infection/forge/biome_modifier/void_stone_gold_ore_biome_modifier.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_gold_ore.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_gold_ore.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_gold_ore.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneCoalFortune",
@@ -978,6 +1500,9 @@
       "locked_code": false,
       "registry_name": "void_stone_coal_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneCoalFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1010,6 +1535,9 @@
       "locked_code": false,
       "registry_name": "void_stone_iron_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneIronFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1042,6 +1570,9 @@
       "locked_code": false,
       "registry_name": "void_stone_emerald_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneEmeraldFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1074,6 +1605,9 @@
       "locked_code": false,
       "registry_name": "void_stone_diamond_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneDiamondFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1106,6 +1640,9 @@
       "locked_code": false,
       "registry_name": "void_stone_gold_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneGoldFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1138,6 +1675,9 @@
       "locked_code": false,
       "registry_name": "void_stone_redstone_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneRedstoneFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1170,6 +1710,9 @@
       "locked_code": false,
       "registry_name": "void_stone_lapis_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneLapisFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1202,6 +1745,9 @@
       "locked_code": false,
       "registry_name": "void_stone_copper_fortune",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidStoneCopperFortuneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1234,7 +1780,8 @@
       "locked_code": false,
       "registry_name": "doInfectionSpread",
       "metadata": {
-        "type": "logic"
+        "type": "logic",
+        "files": []
       }
     },
     {
@@ -1245,6 +1792,9 @@
       "locked_code": false,
       "registry_name": "the_dark_infection_function",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/TheDarkInfectionFunctionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1261,6 +1811,9 @@
       "locked_code": false,
       "registry_name": "void_king_strike_lightning",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidKingStrikeLightningProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "sourceentity",
@@ -1291,7 +1844,13 @@
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_ingot"
+      "registry_name": "dark_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_ingot.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkIngotItem.java"
+        ]
+      }
     },
     {
       "name": "SilverTimer",
@@ -1301,6 +1860,9 @@
       "locked_code": false,
       "registry_name": "silver_timer",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/SilverTimerProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1317,6 +1879,9 @@
       "locked_code": false,
       "registry_name": "darkling_level_3_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarklingLevel3DoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1335,7 +1900,12 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_dark_infection"
+      "registry_name": "the_dark_infection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/the_dark_infection.json"
+        ]
+      }
     },
     {
       "name": "VoidKingSpawner",
@@ -1343,7 +1913,15 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_king_spawner"
+      "registry_name": "void_king_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/void_king_spawner.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidKingSpawnerBlock.java",
+          "src/main/resources/assets/dark_infection/models/block/void_king_spawner.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_king_spawner.json"
+        ]
+      }
     },
     {
       "name": "TheDarkArmor",
@@ -1351,7 +1929,12 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_dark_armor"
+      "registry_name": "the_dark_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/the_dark_armor.json"
+        ]
+      }
     },
     {
       "name": "QuartzPickaxe",
@@ -1359,7 +1942,13 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_pickaxe"
+      "registry_name": "quartz_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/quartz_pickaxe.json",
+          "src/main/java/net/mcreator/darkinfection/item/QuartzPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "CobbleToStoneVoid",
@@ -1367,7 +1956,12 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_to_stone_void"
+      "registry_name": "cobble_to_stone_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/cobble_to_stone_void.json"
+        ]
+      }
     },
     {
       "name": "BricksToChiseledCrafting",
@@ -1375,7 +1969,12 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bricks_to_chiseled_crafting"
+      "registry_name": "bricks_to_chiseled_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/bricks_to_chiseled_crafting.json"
+        ]
+      }
     },
     {
       "name": "TheVoidKingDoIt",
@@ -1385,6 +1984,9 @@
       "locked_code": false,
       "registry_name": "the_void_king_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/TheVoidKingDoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1401,6 +2003,9 @@
       "locked_code": false,
       "registry_name": "do_light_up",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DoLightUpProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1427,7 +2032,12 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_void_king"
+      "registry_name": "the_void_king",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/the_void_king.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneAxeRight",
@@ -1435,7 +2045,12 @@
       "sortid": 175,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_axe_right"
+      "registry_name": "void_stone_axe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_axe_right.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneBrickWalls",
@@ -1443,7 +2058,19 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_brick_walls"
+      "registry_name": "void_stone_brick_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_walls_side_tall.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_walls.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_walls_post.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_brick_walls.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_walls_inventory.json",
+          "src/main/java/net/mcreator/darkinfection/block/entity/VoidStoneBrickWallsBlockEntity.java",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneBrickWallsBlock.java",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_brick_walls.json"
+        ]
+      }
     },
     {
       "name": "DarklingLevel2DoIt",
@@ -1453,6 +2080,9 @@
       "locked_code": false,
       "registry_name": "darkling_level_2_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarklingLevel2DoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1473,6 +2103,9 @@
       "locked_code": false,
       "registry_name": "how_to_get_to_void_dimension",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/HowToGetToVoidDimensionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1503,7 +2136,12 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_slab_recipe_cut"
+      "registry_name": "void_brick_slab_recipe_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_slab_recipe_cut.json"
+        ]
+      }
     },
     {
       "name": "QuartzSwordRecipe",
@@ -1511,7 +2149,12 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_sword_recipe"
+      "registry_name": "quartz_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "VoidStonePickaxe",
@@ -1519,7 +2162,12 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_pickaxe"
+      "registry_name": "void_stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "QuartzAxe",
@@ -1527,7 +2175,13 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_axe"
+      "registry_name": "quartz_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/quartz_axe.json",
+          "src/main/java/net/mcreator/darkinfection/item/QuartzAxeItem.java"
+        ]
+      }
     },
     {
       "name": "VoidBrickStairsRecipeCraft",
@@ -1535,7 +2189,12 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_stairs_recipe_craft"
+      "registry_name": "void_brick_stairs_recipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_stairs_recipe_craft.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneFurnace",
@@ -1543,7 +2202,12 @@
       "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_furnace"
+      "registry_name": "void_stone_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_furnace.json"
+        ]
+      }
     },
     {
       "name": "VoidCobbleFurnace",
@@ -1551,7 +2215,12 @@
       "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_furnace"
+      "registry_name": "void_cobble_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_furnace.json"
+        ]
+      }
     },
     {
       "name": "LightsOff",
@@ -1561,6 +2230,9 @@
       "locked_code": false,
       "registry_name": "lights_off",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/LightsOffProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1587,7 +2259,12 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_pickaxe_recipe"
+      "registry_name": "quartz_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "SummonVoidKing",
@@ -1597,6 +2274,9 @@
       "locked_code": false,
       "registry_name": "summon_void_king",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/SummonVoidKingProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1623,7 +2303,12 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "go_to_void"
+      "registry_name": "go_to_void",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/command/GoToVoidCommand.java"
+        ]
+      }
     },
     {
       "name": "DarkSwordRecipe",
@@ -1631,7 +2316,12 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_sword_recipe"
+      "registry_name": "dark_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "TheVoidAdvancement",
@@ -1639,7 +2329,12 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_void_advancement"
+      "registry_name": "the_void_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/the_void_advancement.json"
+        ]
+      }
     },
     {
       "name": "DarkShovelRecipe",
@@ -1647,7 +2342,12 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_shovel_recipe"
+      "registry_name": "dark_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkPickaxe",
@@ -1655,7 +2355,13 @@
       "sortid": 136,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_pickaxe"
+      "registry_name": "dark_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/DarkPickaxeItem.java",
+          "src/main/resources/assets/dark_infection/models/item/dark_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "VoidstoneBrickWallWork",
@@ -1665,6 +2371,9 @@
       "locked_code": false,
       "registry_name": "voidstone_brick_wall_work",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidstoneBrickWallWorkProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1691,7 +2400,13 @@
       "sortid": 137,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_axe"
+      "registry_name": "dark_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_axe.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkAxeItem.java"
+        ]
+      }
     },
     {
       "name": "PurifyingAppleDo",
@@ -1701,6 +2416,9 @@
       "locked_code": false,
       "registry_name": "purifying_apple_do",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/PurifyingAppleDoProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1717,7 +2435,12 @@
       "locked_code": false,
       "registry_name": "the_void",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/dark_infection/dimension_type/the_void.json",
+          "src/main/java/net/mcreator/darkinfection/world/dimension/TheVoidDimension.java",
+          "src/main/resources/data/dark_infection/dimension/the_void.json"
+        ]
       }
     },
     {
@@ -1726,7 +2449,12 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_walls_recipe_craft"
+      "registry_name": "void_brick_walls_recipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_walls_recipe_craft.json"
+        ]
+      }
     },
     {
       "name": "GoToVoidFunction",
@@ -1736,6 +2464,9 @@
       "locked_code": false,
       "registry_name": "go_to_void_function",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/GoToVoidFunctionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1766,7 +2497,12 @@
       "sortid": 172,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_axe"
+      "registry_name": "void_cobble_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_axe.json"
+        ]
+      }
     },
     {
       "name": "VoidBrickWallRecipeCut",
@@ -1774,7 +2510,12 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_wall_recipe_cut"
+      "registry_name": "void_brick_wall_recipe_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_wall_recipe_cut.json"
+        ]
+      }
     },
     {
       "name": "DarkOrb",
@@ -1782,7 +2523,15 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_orb"
+      "registry_name": "dark_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/DarkOrbItem.java",
+          "src/main/java/net/mcreator/darkinfection/entity/DarkOrbEntity.java",
+          "src/main/resources/assets/dark_infection/models/item/dark_orb.json",
+          "src/main/java/net/mcreator/darkinfection/client/renderer/DarkOrbRenderer.java"
+        ]
+      }
     },
     {
       "name": "QuartzShovelRecipe",
@@ -1790,7 +2539,12 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_shovel_recipe"
+      "registry_name": "quartz_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkAxeRecipe",
@@ -1798,7 +2552,12 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_axe_recipe"
+      "registry_name": "dark_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "VoidCobbleHoeLeft",
@@ -1806,7 +2565,12 @@
       "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_hoe_left"
+      "registry_name": "void_cobble_hoe_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_hoe_left.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneShovel",
@@ -1814,7 +2578,12 @@
       "sortid": 181,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_shovel"
+      "registry_name": "void_stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_shovel.json"
+        ]
+      }
     },
     {
       "name": "VoidKingLevitate",
@@ -1824,6 +2593,9 @@
       "locked_code": false,
       "registry_name": "void_king_levitate",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidKingLevitateProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1850,7 +2622,12 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "generate_void_king"
+      "registry_name": "generate_void_king",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/command/GenerateVoidKingCommand.java"
+        ]
+      }
     },
     {
       "name": "VoidStoneRedstoneOreLit",
@@ -1858,7 +2635,15 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_redstone_ore_lit"
+      "registry_name": "void_stone_redstone_ore_lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/void_stone_redstone_ore_lit.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_redstone_ore_lit.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_redstone_ore_lit.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneRedstoneOreLitBlock.java"
+        ]
+      }
     },
     {
       "name": "QuartzAxeRecipe",
@@ -1866,7 +2651,12 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_axe_recipe"
+      "registry_name": "quartz_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "VoidKingStructure",
@@ -1876,6 +2666,9 @@
       "locked_code": false,
       "registry_name": "void_king_structure",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/VoidKingStructureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1894,7 +2687,13 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_shovel"
+      "registry_name": "dark_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_shovel.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkShovelItem.java"
+        ]
+      }
     },
     {
       "name": "VoidCobbleHoeRight",
@@ -1902,7 +2701,12 @@
       "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_hoe_right"
+      "registry_name": "void_cobble_hoe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_hoe_right.json"
+        ]
+      }
     },
     {
       "name": "VoidCobbleShovel",
@@ -1910,7 +2714,12 @@
       "sortid": 180,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_shovel"
+      "registry_name": "void_cobble_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_shovel.json"
+        ]
+      }
     },
     {
       "name": "VoidCobbleSword",
@@ -1918,7 +2727,12 @@
       "sortid": 170,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_sword"
+      "registry_name": "void_cobble_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_sword.json"
+        ]
+      }
     },
     {
       "name": "SilverSpawn",
@@ -1928,6 +2742,9 @@
       "locked_code": false,
       "registry_name": "silver_spawn",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/SilverSpawnProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1942,7 +2759,13 @@
       "sortid": 138,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_sword"
+      "registry_name": "dark_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_sword.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkSwordItem.java"
+        ]
+      }
     },
     {
       "name": "VoidStoneAxeLeft",
@@ -1950,7 +2773,12 @@
       "sortid": 174,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_axe_left"
+      "registry_name": "void_stone_axe_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_axe_left.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneHoeLeft",
@@ -1958,7 +2786,12 @@
       "sortid": 178,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_hoe_left"
+      "registry_name": "void_stone_hoe_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_hoe_left.json"
+        ]
+      }
     },
     {
       "name": "VoidStoneSword",
@@ -1966,7 +2799,12 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_sword"
+      "registry_name": "void_stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_sword.json"
+        ]
+      }
     },
     {
       "name": "DarkIngotRecipe",
@@ -1974,7 +2812,12 @@
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_ingot_recipe"
+      "registry_name": "dark_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_ingot_recipe.json"
+        ]
+      }
     },
     {
       "name": "QuartzShovel",
@@ -1982,7 +2825,13 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_shovel"
+      "registry_name": "quartz_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/quartz_shovel.json",
+          "src/main/java/net/mcreator/darkinfection/item/QuartzShovelItem.java"
+        ]
+      }
     },
     {
       "name": "VoidStoneBrickSlabs",
@@ -1990,7 +2839,17 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_brick_slabs"
+      "registry_name": "void_stone_brick_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_slabs.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_slabs_full.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_brick_slabs.json",
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_brick_slabs.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneBrickSlabsBlock.java",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_slabs_top.json"
+        ]
+      }
     },
     {
       "name": "TheDarkArmorDoIt",
@@ -2000,6 +2859,9 @@
       "locked_code": false,
       "registry_name": "the_dark_armor_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/TheDarkArmorDoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2014,7 +2876,17 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_brick_stairs"
+      "registry_name": "void_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/blockstates/void_stone_brick_stairs.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/dark_infection/models/item/void_stone_brick_stairs.json",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_stairs.json",
+          "src/main/java/net/mcreator/darkinfection/block/VoidStoneBrickStairsBlock.java",
+          "src/main/resources/assets/dark_infection/models/block/void_stone_brick_stairs_inner.json"
+        ]
+      }
     },
     {
       "name": "BricksToChiseledCutting",
@@ -2022,7 +2894,12 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bricks_to_chiseled_cutting"
+      "registry_name": "bricks_to_chiseled_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/bricks_to_chiseled_cutting.json"
+        ]
+      }
     },
     {
       "name": "DarkHoe",
@@ -2030,7 +2907,13 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_hoe"
+      "registry_name": "dark_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/dark_hoe.json",
+          "src/main/java/net/mcreator/darkinfection/item/DarkHoeItem.java"
+        ]
+      }
     },
     {
       "name": "QuartzSword",
@@ -2038,7 +2921,13 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_sword"
+      "registry_name": "quartz_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/item/QuartzSwordItem.java",
+          "src/main/resources/assets/dark_infection/models/item/quartz_sword.json"
+        ]
+      }
     },
     {
       "name": "ClericOOD",
@@ -2046,7 +2935,10 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cleric_ood"
+      "registry_name": "cleric_ood",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "DarklingLevel2",
@@ -2054,7 +2946,12 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkling_level_2"
+      "registry_name": "darkling_level_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/darkling_level_2.json"
+        ]
+      }
     },
     {
       "name": "VoidBrickSlabRecipeCraft",
@@ -2062,7 +2959,12 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_slab_recipe_craft"
+      "registry_name": "void_brick_slab_recipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_slab_recipe_craft.json"
+        ]
+      }
     },
     {
       "name": "VoidCobblePickaxe",
@@ -2070,7 +2972,12 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_pickaxe"
+      "registry_name": "void_cobble_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "DarklingLevel3",
@@ -2078,7 +2985,12 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkling_level_3"
+      "registry_name": "darkling_level_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/advancements/darkling_level_3.json"
+        ]
+      }
     },
     {
       "name": "QuartzHoe",
@@ -2086,7 +2998,13 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_hoe"
+      "registry_name": "quartz_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dark_infection/models/item/quartz_hoe.json",
+          "src/main/java/net/mcreator/darkinfection/item/QuartzHoeItem.java"
+        ]
+      }
     },
     {
       "name": "VoidStoneHoeRight",
@@ -2094,7 +3012,12 @@
       "sortid": 179,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_stone_hoe_right"
+      "registry_name": "void_stone_hoe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_stone_hoe_right.json"
+        ]
+      }
     },
     {
       "name": "TheVoidAdvancementDoIt",
@@ -2104,6 +3027,9 @@
       "locked_code": false,
       "registry_name": "the_void_advancement_do_it",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/TheVoidAdvancementDoItProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2134,7 +3060,12 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_cobble_axe_right"
+      "registry_name": "void_cobble_axe_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_cobble_axe_right.json"
+        ]
+      }
     },
     {
       "name": "StoneToChiseled",
@@ -2142,7 +3073,12 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stone_to_chiseled"
+      "registry_name": "stone_to_chiseled",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/stone_to_chiseled.json"
+        ]
+      }
     },
     {
       "name": "ChiseledToBricks",
@@ -2150,7 +3086,12 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chiseled_to_bricks"
+      "registry_name": "chiseled_to_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/chiseled_to_bricks.json"
+        ]
+      }
     },
     {
       "name": "IntoTheVoidCommand",
@@ -2158,7 +3099,12 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "into_the_void_command"
+      "registry_name": "into_the_void_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/command/IntoTheVoidCommandCommand.java"
+        ]
+      }
     },
     {
       "name": "VoidBrickStairsRecipeCut",
@@ -2166,7 +3112,12 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_brick_stairs_recipe_cut"
+      "registry_name": "void_brick_stairs_recipe_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/void_brick_stairs_recipe_cut.json"
+        ]
+      }
     },
     {
       "name": "SpawnIntoTheVoid",
@@ -2176,6 +3127,9 @@
       "locked_code": false,
       "registry_name": "spawn_into_the_void",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/SpawnIntoTheVoidProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2194,7 +3148,12 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_pickaxe_recipe"
+      "registry_name": "dark_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkHoeRecipe",
@@ -2202,7 +3161,12 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_hoe_recipe"
+      "registry_name": "dark_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/dark_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "QuartzHoeRecipe",
@@ -2210,7 +3174,12 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "quartz_hoe_recipe"
+      "registry_name": "quartz_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_infection/recipes/quartz_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "Battletothedeth",
@@ -2218,38 +3187,22 @@
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "battletothedeth"
-    },
-    {
-      "name": "InitInfectable",
-      "type": "procedure",
-      "sortid": 189,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "init_infectable",
+      "registry_name": "battletothedeth",
       "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "InitInfectedStuff",
-      "type": "procedure",
-      "sortid": 190,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "init_infected_stuff",
-      "metadata": {
-        "dependencies": []
+        "files": []
       }
     },
     {
       "name": "DoInfection",
       "type": "procedure",
       "sortid": 191,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "do_infection",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DoInfectionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -2274,10 +3227,13 @@
       "name": "OrbOfDarknessYES",
       "type": "procedure",
       "sortid": 192,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "orb_of_darkness_yes",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/OrbOfDarknessYESProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -2296,6 +3252,20 @@
             "type": "world"
           }
         ]
+      }
+    },
+    {
+      "name": "InitInfectable",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "init_infectable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/InitInfectableProcedure.java"
+        ],
+        "dependencies": []
       }
     }
   ],
@@ -2470,11 +3440,13 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.darkinfection",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300110610
 }
