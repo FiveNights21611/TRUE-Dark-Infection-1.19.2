@@ -24,7 +24,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.darkinfection.procedures.VoidkingBodyTickEventProcedure;
 import net.mcreator.darkinfection.init.DarkInfectionModTabs;
-import net.mcreator.darkinfection.client.model.Modelvoidking_armor;
+import net.mcreator.darkinfection.client.model.Modelnevkarmor;
 
 import java.util.function.Consumer;
 import java.util.Map;
@@ -86,7 +86,7 @@ public abstract class VoidkingItem extends ArmorItem {
 				@Override
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head", new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).Head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+							Map.of("head", new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).Head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
@@ -100,7 +100,7 @@ public abstract class VoidkingItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "dark_infection:textures/entities/voidking_armor.png";
+			return "dark_infection:textures/entities/vk_a_t.png";
 		}
 
 		@Override
@@ -120,9 +120,9 @@ public abstract class VoidkingItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).Body, "left_arm",
-							new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).LeftArm, "right_arm",
-							new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).RightArm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).Body, "left_arm",
+							new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).LeftArm, "right_arm",
+							new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).RightArm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
 							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
@@ -134,7 +134,7 @@ public abstract class VoidkingItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "dark_infection:textures/entities/voidking_armor.png";
+			return "dark_infection:textures/entities/vk_a_t.png";
 		}
 
 		@Override
@@ -155,8 +155,8 @@ public abstract class VoidkingItem extends ArmorItem {
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).LeftLeg, "right_leg",
-									new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).RightLeg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							Map.of("left_leg", new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).LeftLeg, "right_leg",
+									new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).RightLeg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
 									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
@@ -169,7 +169,7 @@ public abstract class VoidkingItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "dark_infection:textures/entities/voidking_armor.png";
+			return "dark_infection:textures/entities/vk_a_t.png";
 		}
 
 		@Override
@@ -190,8 +190,8 @@ public abstract class VoidkingItem extends ArmorItem {
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).lboot, "right_leg",
-									new Modelvoidking_armor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelvoidking_armor.LAYER_LOCATION)).rboot, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							Map.of("left_leg", new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).leftboot, "right_leg",
+									new Modelnevkarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelnevkarmor.LAYER_LOCATION)).Rightboot, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
 									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
@@ -204,7 +204,7 @@ public abstract class VoidkingItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "dark_infection:textures/entities/voidking_armor.png";
+			return "dark_infection:textures/entities/vk_a_t.png";
 		}
 
 		@Override

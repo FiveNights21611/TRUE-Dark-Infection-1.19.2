@@ -1,0 +1,45 @@
+{
+  "dark_infection:darkling_level_2": {
+    "criteria": {
+      "darkling_level_2": "2023-04-15 10:38:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-15 10:39:34 -0500"
+    },
+    "done": true
+  },
+  "dark_infection:darkling_level_3": {
+    "criteria": {
+      "darkling_level_3": "2023-04-15 10:38:11 -0500"
+    },
+    "done": true
+  },
+  "dark_infection:darkling_level_1": {
+    "criteria": {
+      "darkling_level_1": "2023-04-15 10:37:55 -0500"
+    },
+    "done": true
+  },
+  "dark_infection:the_void_king": {
+    "criteria": {
+      "the_void_king": "2023-04-15 10:37:47 -0500"
+    },
+    "done": true
+  },
+  "dark_infection:the_dark_infection": {
+    "criteria": {
+      "the_dark_infection": "2023-04-15 10:37:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2023-04-15 10:37:25 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
