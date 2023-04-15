@@ -899,11 +899,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/dark_infection/models/item/voidking_leggings.json",
-          "src/main/resources/assets/dark_infection/models/item/voidking_chestplate.json",
           "src/main/resources/assets/dark_infection/models/item/voidking_helmet.json",
-          "src/main/java/net/mcreator/darkinfection/item/VoidkingItem.java",
-          "src/main/resources/assets/dark_infection/models/item/voidking_boots.json"
+          "src/main/resources/assets/dark_infection/models/item/voidking_chestplate.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_leggings.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_boots.json",
+          "src/main/java/net/mcreator/darkinfection/item/VoidkingItem.java"
         ]
       }
     },
@@ -3277,6 +3277,10 @@
           "src/main/java/net/mcreator/darkinfection/procedures/DarkOrbStuffFiveNightsProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"

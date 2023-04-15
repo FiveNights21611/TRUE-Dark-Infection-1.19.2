@@ -899,11 +899,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/dark_infection/models/item/voidking_leggings.json",
-          "src/main/resources/assets/dark_infection/models/item/voidking_chestplate.json",
           "src/main/resources/assets/dark_infection/models/item/voidking_helmet.json",
-          "src/main/java/net/mcreator/darkinfection/item/VoidkingItem.java",
-          "src/main/resources/assets/dark_infection/models/item/voidking_boots.json"
+          "src/main/resources/assets/dark_infection/models/item/voidking_chestplate.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_leggings.json",
+          "src/main/resources/assets/dark_infection/models/item/voidking_boots.json",
+          "src/main/java/net/mcreator/darkinfection/item/VoidkingItem.java"
         ]
       }
     },
@@ -3264,6 +3264,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkOrbStuffFiveNights",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_orb_stuff_five_nights",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkinfection/procedures/DarkOrbStuffFiveNightsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3374,10 +3409,10 @@
       "effect.dark_infection.darkness": "Darkness",
       "item.dark_infection.quartz_enriched_netherite_armor_boots": "Quartz Enriched Netherite Boots",
       "effect.dark_infection.void_cure": "void cure",
-      "item.dark_infection.blue_pole": "Blue Pole",
       "gamerule.doInfectionSpread.description": "Toggles Infection Spreading",
-      "item.dark_infection.voidvile": "Void Vial",
+      "item.dark_infection.blue_pole": "Blue Pole",
       "item.dark_infection.dark_axe": "Dark Axe",
+      "item.dark_infection.voidvile": "Void Vial",
       "item.dark_infection.quartz_enriched_netherite_armor_helmet": "Quartz Enriched Netherite Helmet",
       "item.dark_infection.quartz_enriched_netherite": "Quartz Enriched Netherite Ingot",
       "item.dark_infection.darkarmor_chestplate": "Dark Chestplate",
